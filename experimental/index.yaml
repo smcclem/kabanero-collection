@@ -17,5 +17,5 @@ projects:
     urls:
     - https://github.com/appsody/stacks/releases/download/java-microprofile-v0.2.4/incubator.java-microprofile.templates.default.tar.gz
     collectionUrls: 
-    - https://raw.githubusercontent.com/kabanero-io/kabanero-collection/master/experimental/java-microprofile-0.2.4
+    - https://raw.githubusercontent.com/smcclem/kabanero-collection/master/experimental/java-microprofile-0.2.4
     version: 0.2.4
