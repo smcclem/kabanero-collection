@@ -29,5 +29,5 @@ assets:
   digest: 11b41c568e7936435f84126169241702417988a7ea65160cf0588dca5430382d
 - name: 
   type: kubernetes-resource
-  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/tasks/appsody-build-task.yaml
-  digest: 11b41c568e7936435f84126169241702417988a7ea65160cf0588dca5430382d
+  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/dev-pipeline/pv.yaml
+  digest: 99b41c568e7936435f84126169241702417988a7ea65160cf0588dca54303899
