@@ -13,18 +13,21 @@ assets:
   digest: c043777f921203f4e03c1dc5089ba9d26d9f353b0df2b239b956200aab5205d6
 - name: 
   type: kubernetes-resource
-  url: https://raw.githubusercontent.com/kabanero-io/kabanero-collection/master/experimental/java-microprofile-0.2.4/appsody-service-account.yaml
+  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/common/service-account.yaml
   digest: e39d71b3ceb6d94443e9e0257871e8dd1f4310f5f1227e5b3210f866270f0d6f
 - name: 
   type: kubernetes-resource
-  url: https://raw.githubusercontent.com/kabanero-io/kabanero-collection/master/experimental/java-microprofile-0.2.4/appsody-cluster-role-binding.yaml
+  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/common/cluster-role-binding.yaml
   digest: aebee37da3381724cd6de116f5d4e2a1e200831d64328e3085caed48a92894eb
 - name: 
   type: kubernetes-resource
-  url: https://raw.githubusercontent.com/kabanero-io/kabanero-collection/master/experimental/java-microprofile-0.2.4/appsody-build-pipeline.yaml
+  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/dev-pipeline/dev-pipeline.yaml
   digest: b6ab63238d4c801d5c602676cdcec9288cdba965c253ccd875b951762f2e7605
 - name: 
   type: kubernetes-resource
-  url: https://raw.githubusercontent.com/kabanero-io/kabanero-collection/master/experimental/java-microprofile-0.2.4/appsody-build-task.yaml
+  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/tasks/appsody-build-task.yaml
   digest: 11b41c568e7936435f84126169241702417988a7ea65160cf0588dca5430382d
-
+- name: 
+  type: kubernetes-resource
+  url: https://raw.githubusercontent.com/kabanero-io/kabanero-pipelines/master/pipelines/tasks/appsody-build-task.yaml
+  digest: 11b41c568e7936435f84126169241702417988a7ea65160cf0588dca5430382d
